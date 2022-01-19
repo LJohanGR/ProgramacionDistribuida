@@ -42,4 +42,8 @@ public class Contenedor{
     public void descargarPiezas(int n){
         this.cantPiezas -= n;
     }
+    
+    public int numPiezasExtraidas(){
+        return this.cantPiezasInicial-this.cantPiezas;
+    }
 }
